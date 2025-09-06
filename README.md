@@ -1,6 +1,12 @@
 # Uber_Project_Prediction
 Predicting Uber booking outcomes (Completed vs Not Completed) using ML models (Decision Tree, Random Forest, XGBoost) with EDA, cross-validation, and business insights.
 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/pokemoncoca/Uber_Project_Prediction/blob/main/Uber_Project.ipynb
+)
+
+
 ##Key Results
 - **Decision Tree & XGBoost**: ~95% accuracy, with near-perfect recall for bookings  
 - **Random Forest**: ~93% accuracy, more balanced precision/recall  
