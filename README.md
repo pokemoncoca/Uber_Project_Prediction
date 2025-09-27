@@ -6,17 +6,15 @@ Predicting Uber booking outcomes (Completed vs Not Completed) using ML models (D
 https://colab.research.google.com/github/pokemoncoca/Uber_Project_Prediction/blob/main/Uber_Project.ipynb
 )
 
-
-##Key Results
-- **Decision Tree & XGBoost**: ~95% accuracy, with near-perfect recall for bookings  
-- **Random Forest**: ~93% accuracy, more balanced precision/recall  
-- **Business takeaway**: High recall ensures Uber rarely misses true bookings, even if a few false alarms occur
-
-
-##Exploratory Data Analysis
+## Exploratory Data Analysis
 - Booking success varies by **vehicle type** (e.g., Bikes/eBikes more prone to failures)  
 - Failures are more frequent during **rush hours (8–10 AM, 5–8 PM)**  
 - **Ride distance** influences outcomes: shorter rides fail more often
+
+## Key Results
+- **Decision Tree & XGBoost**: ~95% accuracy, with near-perfect recall for bookings  
+- **Random Forest**: ~93% accuracy, more balanced precision/recall  
+- **Business takeaway**: High recall ensures Uber rarely misses true bookings, even if a few false alarms occur
 
 ## Tech Stack
 - Python, Pandas, NumPy  
